@@ -12,8 +12,6 @@ export default function Login() {
 
   const handleLogin = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Perform login logic here, such as an API call
-
     loginUser(email, password);
   };
 
